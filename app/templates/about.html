@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Exam 1</h1>
+<img src="{{ url_for('static', filename='assets/Me.jpg') }}" alt="Connor Smallwood" width="200">
+
+{% endblock %}
